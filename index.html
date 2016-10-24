@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>衣殇-致我们终将兴起的是衣冠上国</title>
+		<link rel="stylesheet" type="text/css" href="css/WeChat_scene.css"/>
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+		<link rel="icon" href="img/logo.png" type="image/x-icon"/>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide1">
+					<div id="text0_1">
+						黄帝尧舜垂衣裳
+					</div>
+					<div id="text0_2">
+						而天下治盖取
+					</div>
+					<div id="text0_3">
+						之乾坤
+					</div>
+					<img id="girl1" class="mw" src="img/page0_1.png"/>
+					<img id="boy1" class="mw" src="img/page0_2.png"/>
+				</div>
+				<div class="swiper-slide slide2">
+					<div id="qin" class="Dynasty">
+						秦
+					</div>
+					<img class="mw2" id="qingirl" src="img/quju.png"/>
+					<img class="mw2" id="qinman" src="img/zhiju.png" />
+					<div id="quju" class="qinclose introduce">
+						曲裾
+					</div>
+					<div id="zhiju" class="qinclose introduce">
+						直裾
+					</div>
+				</div>
+				<div class="swiper-slide slide3">
+					<div id="qin" class="Dynasty">
+						汉
+					</div>
+					<img class="mw3" id="hangirl" src="img/han.png"/>
+					<img class="mw3" id="hanman" src="img/zhijushenyi.png" />
+					<div id="quju" class="qinclose introduce">
+						曲裾
+					</div>
+					<div id="zhijushenyi" class="qinclose introduce">
+						直裾深衣
+					</div>
+				</div>
+				<div class="swiper-slide slide4">
+					<div id="qin" class="Dynasty">
+						唐
+					</div>
+					<img class="mw4" id="tanggirl" src="img/qixiongruqun.png"/>
+					<img class="mw4" id="tangman" src="img/yuanlingpao.png" />
+					<div id="qixiongruqun" class="qinclose introduce">
+						齐胸襦裙
+					</div>
+					<div id="yuanlingpao" class="qinclose introduce">
+						圆领袍
+					</div>
+				</div>
+				<div class="swiper-slide slide5">
+					<div id="qin" class="Dynasty">
+						宋
+					</div>
+					<img id="songbg2" src="img/huaniaobg2.png"/>
+					<img id="songbg1" src="img/huaniaobg1.png"/>
+					<img class="mw5" id="songman" src="img/hechang.png" />
+					<img class="mw5" id="songgirl" src="img/duijinruqun.png"/>
+					<div class="songclose" id="duijinruqun">
+						对襟襦裙
+					</div>
+					<div class="songclose" id="hechang">
+						鹤氅
+					</div>
+				</div>
+				<div class="swiper-slide slide6">
+					<div id="qin" class="Dynasty">
+						明
+					</div>
+					<img class="lianhua" id="mingbg1" src="img/heye1.png"/>
+					<img class="lianhua" id="mingbg2" src="img/lianhua2.png"/>
+					<img class="lianhua" id="mingbg3" src="img/lianhua1.png"/>
+					<img class="lianhua" id="chuan" src="img/chuan.png"/>
+					<img class="mw6" id="shenyi" src="img/shenyi.png" />
+					<img class="mw6" id="aoqun" src="img/aoqun.png"/>
+					<div class="mingclose" id="mingman">
+						深衣
+					</div>
+					<div class="mingclose" id="mingwomen">
+						袄裙
+					</div>
+				</div>
+				<div class="swiper-slide slide7">
+					<img class="endimg" id="bg6" src="img/bg6.png"/>
+					<img class="endimg" id="dongtu" src="img/dongtu.gif"/>
+					<img class="endimg" id="dongtu2" src="img/dongtu2.gif"/>
+					<div id="text0_4" class="endtext">
+						礼仪之大故称夏
+					</div>
+					<div id="text0_5" class="endtext">
+						服章之美谓之华
+					</div>
+					<img id="ruqun" src="img/ruqun.png"/>
+					<div id="hxfx">
+						华夏复兴，衣冠先行
+					</div>
+				</div>
+			</div>
+			<div id="misk">
+				<img id="misuc" src="img/qqmiusc.png"/>
+				<audio id="audio" src="music/yibang.mp3" autoplay="autoplay" loop="true"></audio>
+		   </div>
+		</div>
+		
+	</body>
+    <script type="text/javascript" src="js/swiper.min.js" ></script>
+	<script type="text/javascript">
+	    var audio=document.getElementById("audio");
+	    var i=0;
+		document.getElementById("misk").onclick=function()
+		{
+			i++;
+			if (i%2==0)
+			{
+				audio.play();
+			} 
+			else
+			{
+				audio.pause();
+			}
+		}
+		var mySwiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
+//  loop: true,
+  })
+	</script>
+</html>
