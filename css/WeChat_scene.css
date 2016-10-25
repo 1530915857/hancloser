@@ -1,0 +1,1730 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "隶书";
+  font-size: 25px; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background: gainsboro;
+  position: relative; }
+  .swiper-container .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+    .swiper-container .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 100%; }
+
+@keyframes donghua1 {
+  from {
+    left: 120%; }
+  to {
+    left: 70%; } }
+@-moz-keyframes donghua1 {
+  from {
+    left: 120%; }
+  to {
+    left: 70%; } }
+@-ms-keyframes donghua1 {
+  from {
+    left: 120%; }
+  to {
+    left: 70%; } }
+@-webkit-keyframes donghua1 {
+  from {
+    left: 120%; }
+  to {
+    left: 70%; } }
+@keyframes donghua2 {
+  from {
+    left: -20%; }
+  to {
+    left: 60%; } }
+@-moz-keyframes donghua2 {
+  from {
+    left: -20%; }
+  to {
+    left: 60%; } }
+@-ms-keyframes donghua2 {
+  from {
+    left: -20%; }
+  to {
+    left: 60%; } }
+@-webkit-keyframes donghua2 {
+  from {
+    left: -20%; }
+  to {
+    left: 60%; } }
+@keyframes donghua3 {
+  from {
+    top: -100%; }
+  to {
+    top: 10%; } }
+@-moz-keyframes donghua3 {
+  from {
+    top: -100%; }
+  to {
+    top: 10%; } }
+@-ms-keyframes donghua3 {
+  from {
+    top: -100%; }
+  to {
+    top: 10%; } }
+@-webkit-keyframes donghua3 {
+  from {
+    top: -100%; }
+  to {
+    top: 10%; } }
+@keyframes donghua4 {
+  from {
+    width: 50px; }
+  to {
+    width: 350px; } }
+@-moz-keyframes donghua4 {
+  from {
+    width: 50px; }
+  to {
+    width: 350px; } }
+@-ms-keyframes donghua4 {
+  from {
+    width: 50px; }
+  to {
+    width: 350px; } }
+@-webkit-keyframes donghua4 {
+  from {
+    width: 50px; }
+  to {
+    width: 350px; } }
+@keyframes donghua5 {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-moz-keyframes donghua5 {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-ms-keyframes donghua5 {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-webkit-keyframes donghua5 {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@keyframes xuanzhuan {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }
+@-moz-keyframes xuanzhuan {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }
+@-ms-keyframes xuanzhuan {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }
+@-webkit-keyframes xuanzhuan {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(360deg); } }
+@keyframes move1 {
+  from {
+    left: -30%; }
+  to {
+    left: 3%; } }
+@-moz-keyframes move1 {
+  from {
+    left: -30%; }
+  to {
+    left: 3%; } }
+@-ms-keyframes move1 {
+  from {
+    left: -30%; }
+  to {
+    left: 3%; } }
+@-webkit-keyframes move1 {
+  from {
+    left: -30%; }
+  to {
+    left: 3%; } }
+@keyframes moveqingirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-moz-keyframes moveqingirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-ms-keyframes moveqingirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-webkit-keyframes moveqingirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@keyframes changeqinman {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-moz-keyframes changeqinman {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-ms-keyframes changeqinman {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@-webkit-keyframes changeqinman {
+  from {
+    width: 50px; }
+  to {
+    width: 300px; } }
+@keyframes movequju {
+  from {
+    left: -30%; }
+  to {
+    left: 10%; } }
+@-moz-keyframes movequju {
+  from {
+    left: -30%; }
+  to {
+    left: 10%; } }
+@-ms-keyframes movequju {
+  from {
+    left: -30%; }
+  to {
+    left: 10%; } }
+@-webkit-keyframes movequju {
+  from {
+    left: -30%; }
+  to {
+    left: 10%; } }
+@keyframes movezhiju {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-moz-keyframes movezhiju {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-ms-keyframes movezhiju {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-webkit-keyframes movezhiju {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@keyframes movehanman {
+  from {
+    left: 130%; }
+  to {
+    left: 40%; } }
+@-moz-keyframes movehanman {
+  from {
+    left: 130%; }
+  to {
+    left: 40%; } }
+@-ms-keyframes movehanman {
+  from {
+    left: 130%; }
+  to {
+    left: 40%; } }
+@-webkit-keyframes movehanman {
+  from {
+    left: 130%; }
+  to {
+    left: 40%; } }
+@keyframes movehangirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-moz-keyframes movehangirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-ms-keyframes movehangirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@-webkit-keyframes movehangirl {
+  from {
+    left: -30%; }
+  to {
+    left: 20%; } }
+@keyframes movezjsy {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-moz-keyframes movezjsy {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-ms-keyframes movezjsy {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@-webkit-keyframes movezjsy {
+  from {
+    left: 130%; }
+  to {
+    left: 75%; } }
+@keyframes qixiongruqun {
+  from {
+    opacity: 0;
+    height: 500px;
+    font-size: 80px; }
+  to {
+    opacity: 1;
+    height: 300px;
+    font-size: 60px; } }
+@-moz-keyframes qixiongruqun {
+  from {
+    opacity: 0;
+    height: 500px;
+    font-size: 80px; }
+  to {
+    opacity: 1;
+    height: 300px;
+    font-size: 60px; } }
+@-ms-keyframes qixiongruqun {
+  from {
+    opacity: 0;
+    height: 500px;
+    font-size: 80px; }
+  to {
+    opacity: 1;
+    height: 300px;
+    font-size: 60px; } }
+@-webkit-keyframes qixiongruqun {
+  from {
+    opacity: 0;
+    height: 500px;
+    font-size: 80px; }
+  to {
+    opacity: 1;
+    height: 300px;
+    font-size: 60px; } }
+@keyframes yuanlingpao {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 70%; } }
+@-moz-keyframes yuanlingpao {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 70%; } }
+@-ms-keyframes yuanlingpao {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 70%; } }
+@-webkit-keyframes yuanlingpao {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 70%; } }
+@keyframes tanggirl {
+  from {
+    top: -50%; }
+  to {
+    top: 40%; } }
+@-moz-keyframes tanggirl {
+  from {
+    top: -50%; }
+  to {
+    top: 40%; } }
+@-ms-keyframes tanggirl {
+  from {
+    top: -50%; }
+  to {
+    top: 40%; } }
+@-webkit-keyframes tanggirl {
+  from {
+    top: -50%; }
+  to {
+    top: 40%; } }
+@keyframes tangman {
+  from {
+    width: 50px; }
+  to {
+    width: 348px; } }
+@-moz-keyframes tangman {
+  from {
+    width: 50px; }
+  to {
+    width: 348px; } }
+@-ms-keyframes tangman {
+  from {
+    width: 50px; }
+  to {
+    width: 348px; } }
+@-webkit-keyframes tangman {
+  from {
+    width: 50px; }
+  to {
+    width: 348px; } }
+@keyframes songbg1 {
+  from {
+    bottom: -50%; }
+  to {
+    bottom: 0; } }
+@-moz-keyframes songbg1 {
+  from {
+    bottom: -50%; }
+  to {
+    bottom: 0; } }
+@-ms-keyframes songbg1 {
+  from {
+    bottom: -50%; }
+  to {
+    bottom: 0; } }
+@-webkit-keyframes songbg1 {
+  from {
+    bottom: -50%; }
+  to {
+    bottom: 0; } }
+@keyframes songbg2 {
+  from {
+    left: -100%; }
+  to {
+    left: 0; } }
+@-moz-keyframes songbg2 {
+  from {
+    left: -100%; }
+  to {
+    left: 0; } }
+@-ms-keyframes songbg2 {
+  from {
+    left: -100%; }
+  to {
+    left: 0; } }
+@-webkit-keyframes songbg2 {
+  from {
+    left: -100%; }
+  to {
+    left: 0; } }
+@keyframes songman {
+  from {
+    opacity: 0;
+    width: 50px; }
+  to {
+    opacity: 1;
+    width: 500px; } }
+@-moz-keyframes songman {
+  from {
+    opacity: 0;
+    width: 50px; }
+  to {
+    opacity: 1;
+    width: 500px; } }
+@-ms-keyframes songman {
+  from {
+    opacity: 0;
+    width: 50px; }
+  to {
+    opacity: 1;
+    width: 500px; } }
+@-webkit-keyframes songman {
+  from {
+    opacity: 0;
+    width: 50px; }
+  to {
+    opacity: 1;
+    width: 500px; } }
+@keyframes songgirl {
+  from {
+    left: -60%; }
+  to {
+    left: 15%; } }
+@-moz-keyframes songgirl {
+  from {
+    left: -60%; }
+  to {
+    left: 15%; } }
+@-ms-keyframes songgirl {
+  from {
+    left: -60%; }
+  to {
+    left: 15%; } }
+@-webkit-keyframes songgirl {
+  from {
+    left: -60%; }
+  to {
+    left: 15%; } }
+@keyframes hechang {
+  from {
+    opacity: 0;
+    top: 40%; }
+  to {
+    opacity: 1;
+    top: 50%; } }
+@-moz-keyframes hechang {
+  from {
+    opacity: 0;
+    top: 40%; }
+  to {
+    opacity: 1;
+    top: 50%; } }
+@-ms-keyframes hechang {
+  from {
+    opacity: 0;
+    top: 40%; }
+  to {
+    opacity: 1;
+    top: 50%; } }
+@-webkit-keyframes hechang {
+  from {
+    opacity: 0;
+    top: 40%; }
+  to {
+    opacity: 1;
+    top: 50%; } }
+@keyframes djrq {
+  from {
+    opacity: 0;
+    top: 90%; }
+  to {
+    opacity: 1;
+    top: 80%; } }
+@-moz-keyframes djrq {
+  from {
+    opacity: 0;
+    top: 90%; }
+  to {
+    opacity: 1;
+    top: 80%; } }
+@-ms-keyframes djrq {
+  from {
+    opacity: 0;
+    top: 90%; }
+  to {
+    opacity: 1;
+    top: 80%; } }
+@-webkit-keyframes djrq {
+  from {
+    opacity: 0;
+    top: 90%; }
+  to {
+    opacity: 1;
+    top: 80%; } }
+@keyframes mingbg1 {
+  from {
+    bottom: -30%; }
+  to {
+    bottom: 0; } }
+@-moz-keyframes mingbg1 {
+  from {
+    bottom: -30%; }
+  to {
+    bottom: 0; } }
+@-ms-keyframes mingbg1 {
+  from {
+    bottom: -30%; }
+  to {
+    bottom: 0; } }
+@-webkit-keyframes mingbg1 {
+  from {
+    bottom: -30%; }
+  to {
+    bottom: 0; } }
+@keyframes mingbg3 {
+  from {
+    bottom: 100%; }
+  to {
+    bottom: 0; } }
+@-moz-keyframes mingbg3 {
+  from {
+    bottom: 100%; }
+  to {
+    bottom: 0; } }
+@-ms-keyframes mingbg3 {
+  from {
+    bottom: 100%; }
+  to {
+    bottom: 0; } }
+@-webkit-keyframes mingbg3 {
+  from {
+    bottom: 100%; }
+  to {
+    bottom: 0; } }
+@keyframes mingbg2 {
+  from {
+    right: 150%; }
+  to {
+    right: -10%; } }
+@-moz-keyframes mingbg2 {
+  from {
+    right: 150%; }
+  to {
+    right: -10%; } }
+@-ms-keyframes mingbg2 {
+  from {
+    right: 150%; }
+  to {
+    right: -10%; } }
+@-webkit-keyframes mingbg2 {
+  from {
+    right: 150%; }
+  to {
+    right: -10%; } }
+@keyframes chuan {
+  from {
+    left: -210%; }
+  to {
+    left: -15%; } }
+@-moz-keyframes chuan {
+  from {
+    left: -210%; }
+  to {
+    left: -15%; } }
+@-ms-keyframes chuan {
+  from {
+    left: -210%; }
+  to {
+    left: -15%; } }
+@-webkit-keyframes chuan {
+  from {
+    left: -210%; }
+  to {
+    left: -15%; } }
+@keyframes shenyi {
+  from {
+    opacity: 0;
+    top: 10%; }
+  to {
+    opacity: 1;
+    top: 20%; } }
+@-moz-keyframes shenyi {
+  from {
+    opacity: 0;
+    top: 10%; }
+  to {
+    opacity: 1;
+    top: 20%; } }
+@-ms-keyframes shenyi {
+  from {
+    opacity: 0;
+    top: 10%; }
+  to {
+    opacity: 1;
+    top: 20%; } }
+@-webkit-keyframes shenyi {
+  from {
+    opacity: 0;
+    top: 10%; }
+  to {
+    opacity: 1;
+    top: 20%; } }
+@keyframes aoqun {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 30%; } }
+@-moz-keyframes aoqun {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 30%; } }
+@-ms-keyframes aoqun {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 30%; } }
+@-webkit-keyframes aoqun {
+  from {
+    opacity: 0;
+    top: 50%; }
+  to {
+    opacity: 1;
+    top: 30%; } }
+@keyframes mingman {
+  from {
+    left: -10%; }
+  to {
+    left: 4%; } }
+@-moz-keyframes mingman {
+  from {
+    left: -10%; }
+  to {
+    left: 4%; } }
+@-ms-keyframes mingman {
+  from {
+    left: -10%; }
+  to {
+    left: 4%; } }
+@-webkit-keyframes mingman {
+  from {
+    left: -10%; }
+  to {
+    left: 4%; } }
+@keyframes mingwoman {
+  from {
+    left: 110%; }
+  to {
+    left: 85%; } }
+@-moz-keyframes mingwoman {
+  from {
+    left: 110%; }
+  to {
+    left: 85%; } }
+@-ms-keyframes mingwoman {
+  from {
+    left: 110%; }
+  to {
+    left: 85%; } }
+@-webkit-keyframes mingwoman {
+  from {
+    left: 110%; }
+  to {
+    left: 85%; } }
+@keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotateZ(-90deg);
+    -o-transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
+    left: 110%;
+    top: 60%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 80%;
+    top: 80%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 50%; }
+  75% {
+    -webkit-transform: rotateZ(-80deg);
+    -moz-transform: rotateZ(-80deg);
+    -ms-transform: rotateZ(-80deg);
+    -o-transform: rotateZ(-80deg);
+    transform: rotateZ(-80deg);
+    left: 35%;
+    top: 55%; }
+  100% {
+    -webkit-transform: rotateZ(-120deg);
+    -moz-transform: rotateZ(-120deg);
+    -ms-transform: rotateZ(-120deg);
+    -o-transform: rotateZ(-120deg);
+    transform: rotateZ(-120deg);
+    left: -10%;
+    top: 65%; } }
+@-moz-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotateZ(-90deg);
+    -o-transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
+    left: 110%;
+    top: 60%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 80%;
+    top: 80%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 50%; }
+  75% {
+    -webkit-transform: rotateZ(-80deg);
+    -moz-transform: rotateZ(-80deg);
+    -ms-transform: rotateZ(-80deg);
+    -o-transform: rotateZ(-80deg);
+    transform: rotateZ(-80deg);
+    left: 35%;
+    top: 55%; }
+  100% {
+    -webkit-transform: rotateZ(-120deg);
+    -moz-transform: rotateZ(-120deg);
+    -ms-transform: rotateZ(-120deg);
+    -o-transform: rotateZ(-120deg);
+    transform: rotateZ(-120deg);
+    left: -10%;
+    top: 65%; } }
+@-ms-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotateZ(-90deg);
+    -o-transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
+    left: 110%;
+    top: 60%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 80%;
+    top: 80%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 50%; }
+  75% {
+    -webkit-transform: rotateZ(-80deg);
+    -moz-transform: rotateZ(-80deg);
+    -ms-transform: rotateZ(-80deg);
+    -o-transform: rotateZ(-80deg);
+    transform: rotateZ(-80deg);
+    left: 35%;
+    top: 55%; }
+  100% {
+    -webkit-transform: rotateZ(-120deg);
+    -moz-transform: rotateZ(-120deg);
+    -ms-transform: rotateZ(-120deg);
+    -o-transform: rotateZ(-120deg);
+    transform: rotateZ(-120deg);
+    left: -10%;
+    top: 65%; } }
+@-webkit-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotateZ(-90deg);
+    -o-transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
+    left: 110%;
+    top: 60%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 80%;
+    top: 80%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 50%; }
+  75% {
+    -webkit-transform: rotateZ(-80deg);
+    -moz-transform: rotateZ(-80deg);
+    -ms-transform: rotateZ(-80deg);
+    -o-transform: rotateZ(-80deg);
+    transform: rotateZ(-80deg);
+    left: 35%;
+    top: 55%; }
+  100% {
+    -webkit-transform: rotateZ(-120deg);
+    -moz-transform: rotateZ(-120deg);
+    -ms-transform: rotateZ(-120deg);
+    -o-transform: rotateZ(-120deg);
+    transform: rotateZ(-120deg);
+    left: -10%;
+    top: 65%; } }
+@keyframes dongtu2 {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    left: -10%;
+    top: 65%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 28%;
+    top: 45%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 55%; }
+  75% {
+    -webkit-transform: rotateZ(40deg);
+    -moz-transform: rotateZ(40deg);
+    -ms-transform: rotateZ(40deg);
+    -o-transform: rotateZ(40deg);
+    transform: rotateZ(40deg);
+    left: 75%;
+    top: 40%; }
+  100% {
+    -webkit-transform: rotateZ(60deg);
+    -moz-transform: rotateZ(60deg);
+    -ms-transform: rotateZ(60deg);
+    -o-transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+    left: 110%;
+    top: 45%; } }
+@-moz-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    left: -10%;
+    top: 65%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 28%;
+    top: 45%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 55%; }
+  75% {
+    -webkit-transform: rotateZ(40deg);
+    -moz-transform: rotateZ(40deg);
+    -ms-transform: rotateZ(40deg);
+    -o-transform: rotateZ(40deg);
+    transform: rotateZ(40deg);
+    left: 75%;
+    top: 40%; }
+  100% {
+    -webkit-transform: rotateZ(60deg);
+    -moz-transform: rotateZ(60deg);
+    -ms-transform: rotateZ(60deg);
+    -o-transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+    left: 110%;
+    top: 45%; } }
+@-ms-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    left: -10%;
+    top: 65%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 28%;
+    top: 45%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 55%; }
+  75% {
+    -webkit-transform: rotateZ(40deg);
+    -moz-transform: rotateZ(40deg);
+    -ms-transform: rotateZ(40deg);
+    -o-transform: rotateZ(40deg);
+    transform: rotateZ(40deg);
+    left: 75%;
+    top: 40%; }
+  100% {
+    -webkit-transform: rotateZ(60deg);
+    -moz-transform: rotateZ(60deg);
+    -ms-transform: rotateZ(60deg);
+    -o-transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+    left: 110%;
+    top: 45%; } }
+@-webkit-keyframes dongtu {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    left: -10%;
+    top: 65%; }
+  25% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ() 0deg;
+    left: 28%;
+    top: 45%; }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    left: 50%;
+    top: 55%; }
+  75% {
+    -webkit-transform: rotateZ(40deg);
+    -moz-transform: rotateZ(40deg);
+    -ms-transform: rotateZ(40deg);
+    -o-transform: rotateZ(40deg);
+    transform: rotateZ(40deg);
+    left: 75%;
+    top: 40%; }
+  100% {
+    -webkit-transform: rotateZ(60deg);
+    -moz-transform: rotateZ(60deg);
+    -ms-transform: rotateZ(60deg);
+    -o-transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+    left: 110%;
+    top: 45%; } }
+@keyframes bg6 {
+  from {
+    bottom: -60%; }
+  to {
+    bottom: 0; } }
+@-moz-keyframes bg6 {
+  from {
+    bottom: -60%; }
+  to {
+    bottom: 0; } }
+@-ms-keyframes bg6 {
+  from {
+    bottom: -60%; }
+  to {
+    bottom: 0; } }
+@-webkit-keyframes bg6 {
+  from {
+    bottom: -60%; }
+  to {
+    bottom: 0; } }
+@keyframes text0_4 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-moz-keyframes text0_4 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-ms-keyframes text0_4 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-webkit-keyframes text0_4 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@keyframes text0_5 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-moz-keyframes text0_5 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-ms-keyframes text0_5 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@-webkit-keyframes text0_5 {
+  from {
+    height: 0; }
+  to {
+    height: 810px; } }
+@keyframes ruqun {
+  from {
+    top: -60%; }
+  to {
+    top: 30%; } }
+@-moz-keyframes ruqun {
+  from {
+    top: -60%; }
+  to {
+    top: 30%; } }
+@-ms-keyframes ruqun {
+  from {
+    top: -60%; }
+  to {
+    top: 30%; } }
+@-webkit-keyframes ruqun {
+  from {
+    top: -60%; }
+  to {
+    top: 30%; } }
+@keyframes hxfx {
+  from {
+    opacity: 0;
+    top: 0%; }
+  to {
+    opacity: 1;
+    top: 10%; } }
+@-moz-keyframes hxfx {
+  from {
+    opacity: 0;
+    top: 0%; }
+  to {
+    opacity: 1;
+    top: 10%; } }
+@-ms-keyframes hxfx {
+  from {
+    opacity: 0;
+    top: 0%; }
+  to {
+    opacity: 1;
+    top: 10%; } }
+@-webkit-keyframes hxfx {
+  from {
+    opacity: 0;
+    top: 0%; }
+  to {
+    opacity: 1;
+    top: 10%; } }
+.slide1 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg1.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  font-size: 100px;
+  font-family: "迷你繁篆书";
+  font-weight: bold; }
+  .slide1 #text0_1 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 10%; }
+  .slide1 #text0_2 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 10%; }
+  .slide1 #text0_3 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 50%; }
+  .slide1 #girl1 {
+    position: absolute;
+    top: 50%;
+    left: 0%; }
+  .slide1 #boy1 {
+    position: absolute;
+    top: 50%;
+    left: 30%; }
+
+.Dynasty {
+  width: 150px;
+  height: 150px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 120px;
+  font-family: "迷你繁篆书";
+  text-align: center;
+  line-height: 150px;
+  font-weight: bolder;
+  opacity: 0.7;
+  position: absolute;
+  top: 5%;
+  z-index: 2; }
+
+.introduce {
+  font-size: 80px;
+  font-family: "隶书"; }
+
+.qinclose {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 80%; }
+
+.slide2 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/qinbuild.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  .slide2 .mw2 {
+    position: absolute;
+    top: 50%; }
+  .slide2 #qingirl {
+    left: 20%; }
+  .slide2 #qinman {
+    left: 40%; }
+  .slide2 #zhiju {
+    left: 75%; }
+  .slide2 #quju {
+    left: 10%; }
+
+.slide3 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/handaibg.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  .slide3 .mw3 {
+    position: absolute;
+    top: 50%; }
+  .slide3 #hangirl {
+    left: 20%; }
+  .slide3 #hanman {
+    left: 40%; }
+  .slide3 #zhijushenyi {
+    left: 75%;
+    top: 70%; }
+
+.slide4 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/tangbg.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  .slide4 .mw4 {
+    position: absolute;
+    top: 40%;
+    width: 400px; }
+  .slide4 #qixiongruqun {
+    background: url(../img/yinzhang.png);
+    background-size: 100% 100%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    padding-top: 10px; }
+  .slide4 #yuanlingpao {
+    background: url(../img/yinzhang.png);
+    background-size: 100% 100%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 75%;
+    top: 70%;
+    padding-top: 10px; }
+  .slide4 #tanggirl {
+    left: 20%; }
+  .slide4 #tangman {
+    left: 40%; }
+
+.slide5 {
+  width: 100%;
+  height: 100%;
+  background: #F9F400;
+  position: relative; }
+  .slide5 #songbg1 {
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2; }
+  .slide5 #songbg2 {
+    width: 950px;
+    position: absolute;
+    left: 0; }
+  .slide5 .mw5 {
+    position: absolute;
+    top: 45%; }
+  .slide5 #songgirl {
+    left: 15%;
+    width: 450px;
+    top: 50%; }
+  .slide5 #songman {
+    left: 40%;
+    width: 500px; }
+  .slide5 .songclose {
+    width: 100px;
+    height: auto;
+    background: url(../img/yinzhangbg2.png);
+    background-size: 100% 100%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 3; }
+  .slide5 #duijinruqun {
+    top: 80%;
+    left: 8%; }
+  .slide5 #hechang {
+    top: 50%;
+    left: 85%; }
+
+.slide6 {
+  width: 100%;
+  height: 100%;
+  background: #D2691E;
+  position: relative;
+  overflow: hidden; }
+  .slide6 .lianhua {
+    position: absolute;
+    bottom: 0;
+    z-index: 2; }
+  .slide6 #mingbg1 {
+    left: 20%;
+    width: 550px; }
+  .slide6 #mingbg2 {
+    right: -10%;
+    width: 650px; }
+  .slide6 #mingbg3 {
+    left: -5%;
+    width: 650px; }
+  .slide6 .mw6 {
+    position: absolute;
+    top: 20%;
+    width: 400px; }
+  .slide6 #shenyi {
+    z-index: 1;
+    left: 15%; }
+  .slide6 #aoqun {
+    z-index: 1;
+    top: 30%;
+    left: 45%; }
+  .slide6 #chuan {
+    width: 1200px;
+    height: 1250px;
+    left: -15%;
+    bottom: -40px;
+    z-index: 0; }
+  .slide6 .mingclose {
+    width: 100px;
+    height: auto;
+    background: url(../img/mingbg.png);
+    background-size: 100% 100%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute; }
+  .slide6 #mingman {
+    top: 30%;
+    left: 4%; }
+  .slide6 #mingwomen {
+    top: 35%;
+    left: 85%; }
+
+.slide7 {
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: relative; }
+  .slide7 .endtext {
+    width: 100px;
+    height: auto;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden; }
+  .slide7 #text0_4 {
+    left: 10%;
+    top: 10%;
+    z-index: 2; }
+  .slide7 #text0_5 {
+    left: 25%;
+    top: 15%;
+    z-index: 2; }
+  .slide7 .endimg {
+    position: absolute; }
+  .slide7 #bg6 {
+    bottom: 0;
+    z-index: 1; }
+  .slide7 #dongtu {
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    z-index: 2; }
+  .slide7 #dongtu2 {
+    width: 100px;
+    left: 28%;
+    top: 45%;
+    z-index: 2; }
+  .slide7 #ruqun {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 0; }
+  .slide7 #hxfx {
+    width: 100px;
+    height: auto;
+    font-size: 80px;
+    text-align: center;
+    background: url(../img/yinzhang.png);
+    background-size: 140% 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    z-index: 2; }
+
+#misk {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  top: 3%;
+  left: 88%;
+  z-index: 2; }
+  #misk #misuc {
+    width: 80px;
+    height: 80px; }
+
+#misuc {
+  -webkit-animation: xuanzhuan 4s ease infinite 0s running both normal;
+  -moz-animation: xuanzhuan 4s ease infinite 0s running both normal;
+  -o-animation: xuanzhuan 4s ease infinite 0s running both normal;
+  -ms-animation: xuanzhuan 4s ease infinite 0s running both normal;
+  animation: xuanzhuan 4s ease infinite 0s running both normal; }
+
+.swiper-slide-active #text0_1 {
+  -webkit-animation: donghua1 4s ease 1 0s running both normal;
+  -moz-animation: donghua1 4s ease 1 0s running both normal;
+  -o-animation: donghua1 4s ease 1 0s running both normal;
+  -ms-animation: donghua1 4s ease 1 0s running both normal;
+  animation: donghua1 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #text0_2 {
+  -webkit-animation: donghua2 5s ease 1 0s running both normal;
+  -moz-animation: donghua2 5s ease 1 0s running both normal;
+  -o-animation: donghua2 5s ease 1 0s running both normal;
+  -ms-animation: donghua2 5s ease 1 0s running both normal;
+  animation: donghua2 5s ease 1 0s running both normal; }
+
+.swiper-slide-active #text0_3 {
+  -webkit-animation: donghua3 6s ease 1 1s running both normal;
+  -moz-animation: donghua3 6s ease 1 1s running both normal;
+  -o-animation: donghua3 6s ease 1 1s running both normal;
+  -ms-animation: donghua3 6s ease 1 1s running both normal;
+  animation: donghua3 6s ease 1 1s running both normal; }
+
+.swiper-slide-active #girl1 {
+  -webkit-animation: donghua4 4s ease 1 0s running both normal;
+  -moz-animation: donghua4 4s ease 1 0s running both normal;
+  -o-animation: donghua4 4s ease 1 0s running both normal;
+  -ms-animation: donghua4 4s ease 1 0s running both normal;
+  animation: donghua4 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #boy1 {
+  -webkit-animation: donghua5 4s ease 1 0s running both normal;
+  -moz-animation: donghua5 4s ease 1 0s running both normal;
+  -o-animation: donghua5 4s ease 1 0s running both normal;
+  -ms-animation: donghua5 4s ease 1 0s running both normal;
+  animation: donghua5 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #qin {
+  -webkit-animation: move1 4s ease 1 0s running both normal;
+  -moz-animation: move1 4s ease 1 0s running both normal;
+  -o-animation: move1 4s ease 1 0s running both normal;
+  -ms-animation: move1 4s ease 1 0s running both normal;
+  animation: move1 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #qingirl {
+  -webkit-animation: moveqingirl 4s ease 1 0s running both normal;
+  -moz-animation: moveqingirl 4s ease 1 0s running both normal;
+  -o-animation: moveqingirl 4s ease 1 0s running both normal;
+  -ms-animation: moveqingirl 4s ease 1 0s running both normal;
+  animation: moveqingirl 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #qinman {
+  -webkit-animation: changeqinman 4s ease 1 0s running both normal;
+  -moz-animation: changeqinman 4s ease 1 0s running both normal;
+  -o-animation: changeqinman 4s ease 1 0s running both normal;
+  -ms-animation: changeqinman 4s ease 1 0s running both normal;
+  animation: changeqinman 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #zhiju {
+  -webkit-animation: movezhiju 4s ease 1 2s running both normal;
+  -moz-animation: movezhiju 4s ease 1 2s running both normal;
+  -o-animation: movezhiju 4s ease 1 2s running both normal;
+  -ms-animation: movezhiju 4s ease 1 2s running both normal;
+  animation: movezhiju 4s ease 1 2s running both normal; }
+
+.swiper-slide-active #quju {
+  -webkit-animation: movequju 4s ease 1 2s running both normal;
+  -moz-animation: movequju 4s ease 1 2s running both normal;
+  -o-animation: movequju 4s ease 1 2s running both normal;
+  -ms-animation: movequju 4s ease 1 2s running both normal;
+  animation: movequju 4s ease 1 2s running both normal; }
+
+.swiper-slide-active #hanman {
+  -webkit-animation: movehanman 4s ease 1 2s running both normal;
+  -moz-animation: movehanman 4s ease 1 2s running both normal;
+  -o-animation: movehanman 4s ease 1 2s running both normal;
+  -ms-animation: movehanman 4s ease 1 2s running both normal;
+  animation: movehanman 4s ease 1 2s running both normal; }
+
+.swiper-slide-active #hangirl {
+  -webkit-animation: movehangirl 4s ease 1 4s running both normal;
+  -moz-animation: movehangirl 4s ease 1 4s running both normal;
+  -o-animation: movehangirl 4s ease 1 4s running both normal;
+  -ms-animation: movehangirl 4s ease 1 4s running both normal;
+  animation: movehangirl 4s ease 1 4s running both normal; }
+
+.swiper-slide-active #zhijushenyi {
+  -webkit-animation: movezjsy 4s ease 1 4s running both normal;
+  -moz-animation: movezjsy 4s ease 1 4s running both normal;
+  -o-animation: movezjsy 4s ease 1 4s running both normal;
+  -ms-animation: movezjsy 4s ease 1 4s running both normal;
+  animation: movezjsy 4s ease 1 4s running both normal; }
+
+.swiper-slide-active #qixiongruqun {
+  -webkit-animation: qixiongruqun 1s ease 1 4s running both normal;
+  -moz-animation: qixiongruqun 1s ease 1 4s running both normal;
+  -o-animation: qixiongruqun 1s ease 1 4s running both normal;
+  -ms-animation: qixiongruqun 1s ease 1 4s running both normal;
+  animation: qixiongruqun 1s ease 1 4s running both normal; }
+
+.swiper-slide-active #yuanlingpao {
+  -webkit-animation: yuanlingpao 4s ease 1 4s running both normal;
+  -moz-animation: yuanlingpao 4s ease 1 4s running both normal;
+  -o-animation: yuanlingpao 4s ease 1 4s running both normal;
+  -ms-animation: yuanlingpao 4s ease 1 4s running both normal;
+  animation: yuanlingpao 4s ease 1 4s running both normal; }
+
+.swiper-slide-active #tanggirl {
+  -webkit-animation: tanggirl 4s ease 1 0s running both normal;
+  -moz-animation: tanggirl 4s ease 1 0s running both normal;
+  -o-animation: tanggirl 4s ease 1 0s running both normal;
+  -ms-animation: tanggirl 4s ease 1 0s running both normal;
+  animation: tanggirl 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #tangman {
+  -webkit-animation: tangman 4s ease 1 0s running both normal;
+  -moz-animation: tangman 4s ease 1 0s running both normal;
+  -o-animation: tangman 4s ease 1 0s running both normal;
+  -ms-animation: tangman 4s ease 1 0s running both normal;
+  animation: tangman 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #songbg1 {
+  -webkit-animation: songbg1 4s ease 1 3s running both normal;
+  -moz-animation: songbg1 4s ease 1 3s running both normal;
+  -o-animation: songbg1 4s ease 1 3s running both normal;
+  -ms-animation: songbg1 4s ease 1 3s running both normal;
+  animation: songbg1 4s ease 1 3s running both normal; }
+
+.swiper-slide-active #songbg2 {
+  -webkit-animation: songbg2 4s ease 1 0s running both normal;
+  -moz-animation: songbg2 4s ease 1 0s running both normal;
+  -o-animation: songbg2 4s ease 1 0s running both normal;
+  -ms-animation: songbg2 4s ease 1 0s running both normal;
+  animation: songbg2 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #songman {
+  -webkit-animation: songman 4s ease 1 5s running both normal;
+  -moz-animation: songman 4s ease 1 5s running both normal;
+  -o-animation: songman 4s ease 1 5s running both normal;
+  -ms-animation: songman 4s ease 1 5s running both normal;
+  animation: songman 4s ease 1 5s running both normal; }
+
+.swiper-slide-active #songgirl {
+  -webkit-animation: songgirl 4s ease 1 7s running both normal;
+  -moz-animation: songgirl 4s ease 1 7s running both normal;
+  -o-animation: songgirl 4s ease 1 7s running both normal;
+  -ms-animation: songgirl 4s ease 1 7s running both normal;
+  animation: songgirl 4s ease 1 7s running both normal; }
+
+.swiper-slide-active #hechang {
+  -webkit-animation: hechang 4s ease 1 6s running both normal;
+  -moz-animation: hechang 4s ease 1 6s running both normal;
+  -o-animation: hechang 4s ease 1 6s running both normal;
+  -ms-animation: hechang 4s ease 1 6s running both normal;
+  animation: hechang 4s ease 1 6s running both normal; }
+
+.swiper-slide-active #duijinruqun {
+  -webkit-animation: djrq 4s ease 1 9s running both normal;
+  -moz-animation: djrq 4s ease 1 9s running both normal;
+  -o-animation: djrq 4s ease 1 9s running both normal;
+  -ms-animation: djrq 4s ease 1 9s running both normal;
+  animation: djrq 4s ease 1 9s running both normal; }
+
+.swiper-slide-active #mingbg1 {
+  -webkit-animation: mingbg1 4s ease 1 0s running both normal;
+  -moz-animation: mingbg1 4s ease 1 0s running both normal;
+  -o-animation: mingbg1 4s ease 1 0s running both normal;
+  -ms-animation: mingbg1 4s ease 1 0s running both normal;
+  animation: mingbg1 4s ease 1 0s running both normal; }
+
+.swiper-slide-active #mingbg2 {
+  -webkit-animation: mingbg2 4s ease 1 3s running both normal;
+  -moz-animation: mingbg2 4s ease 1 3s running both normal;
+  -o-animation: mingbg2 4s ease 1 3s running both normal;
+  -ms-animation: mingbg2 4s ease 1 3s running both normal;
+  animation: mingbg2 4s ease 1 3s running both normal; }
+
+.swiper-slide-active #mingbg3 {
+  -webkit-animation: mingbg3 4s ease 1 5s running both normal;
+  -moz-animation: mingbg3 4s ease 1 5s running both normal;
+  -o-animation: mingbg3 4s ease 1 5s running both normal;
+  -ms-animation: mingbg3 4s ease 1 5s running both normal;
+  animation: mingbg3 4s ease 1 5s running both normal; }
+
+.swiper-slide-active #chuan {
+  -webkit-animation: chuan 4s ease 1 7s running both normal;
+  -moz-animation: chuan 4s ease 1 7s running both normal;
+  -o-animation: chuan 4s ease 1 7s running both normal;
+  -ms-animation: chuan 4s ease 1 7s running both normal;
+  animation: chuan 4s ease 1 7s running both normal; }
+
+.swiper-slide-active #shenyi {
+  -webkit-animation: shenyi 3s ease 1 10s running both normal;
+  -moz-animation: shenyi 3s ease 1 10s running both normal;
+  -o-animation: shenyi 3s ease 1 10s running both normal;
+  -ms-animation: shenyi 3s ease 1 10s running both normal;
+  animation: shenyi 3s ease 1 10s running both normal; }
+
+.swiper-slide-active #aoqun {
+  -webkit-animation: aoqun 3s ease 1 12s running both normal;
+  -moz-animation: aoqun 3s ease 1 12s running both normal;
+  -o-animation: aoqun 3s ease 1 12s running both normal;
+  -ms-animation: aoqun 3s ease 1 12s running both normal;
+  animation: aoqun 3s ease 1 12s running both normal; }
+
+.swiper-slide-active #mingman {
+  -webkit-animation: mingman 3s ease 1 12s running both normal;
+  -moz-animation: mingman 3s ease 1 12s running both normal;
+  -o-animation: mingman 3s ease 1 12s running both normal;
+  -ms-animation: mingman 3s ease 1 12s running both normal;
+  animation: mingman 3s ease 1 12s running both normal; }
+
+.swiper-slide-active #mingwomen {
+  -webkit-animation: mingwoman 3s ease 1 12s running both normal;
+  -moz-animation: mingwoman 3s ease 1 12s running both normal;
+  -o-animation: mingwoman 3s ease 1 12s running both normal;
+  -ms-animation: mingwoman 3s ease 1 12s running both normal;
+  animation: mingwoman 3s ease 1 12s running both normal; }
+
+.swiper-slide-active #dongtu {
+  -webkit-animation: dongtu 18s ease infinite 3s running both normal;
+  -moz-animation: dongtu 18s ease infinite 3s running both normal;
+  -o-animation: dongtu 18s ease infinite 3s running both normal;
+  -ms-animation: dongtu 18s ease infinite 3s running both normal;
+  animation: dongtu 18s ease infinite 3s running both normal; }
+
+.swiper-slide-active #dongtu2 {
+  -webkit-animation: dongtu2 21s ease infinite 5s running both normal;
+  -moz-animation: dongtu2 21s ease infinite 5s running both normal;
+  -o-animation: dongtu2 21s ease infinite 5s running both normal;
+  -ms-animation: dongtu2 21s ease infinite 5s running both normal;
+  animation: dongtu2 21s ease infinite 5s running both normal; }
+
+.swiper-slide-active #bg6 {
+  -webkit-animation: bg6 3s ease 1 0s running both normal;
+  -moz-animation: bg6 3s ease 1 0s running both normal;
+  -o-animation: bg6 3s ease 1 0s running both normal;
+  -ms-animation: bg6 3s ease 1 0s running both normal;
+  animation: bg6 3s ease 1 0s running both normal; }
+
+.swiper-slide-active #text0_4 {
+  -webkit-animation: text0_4 4s ease 1 15s running both normal;
+  -moz-animation: text0_4 4s ease 1 15s running both normal;
+  -o-animation: text0_4 4s ease 1 15s running both normal;
+  -ms-animation: text0_4 4s ease 1 15s running both normal;
+  animation: text0_4 4s ease 1 15s running both normal; }
+
+.swiper-slide-active #text0_5 {
+  -webkit-animation: text0_5 4s ease 1 17s running both normal;
+  -moz-animation: text0_5 4s ease 1 17s running both normal;
+  -o-animation: text0_5 4s ease 1 17s running both normal;
+  -ms-animation: text0_5 4s ease 1 17s running both normal;
+  animation: text0_5 4s ease 1 17s running both normal; }
+
+.swiper-slide-active #ruqun {
+  -webkit-animation: ruqun 4s ease 1 10s running both normal;
+  -moz-animation: ruqun 4s ease 1 10s running both normal;
+  -o-animation: ruqun 4s ease 1 10s running both normal;
+  -ms-animation: ruqun 4s ease 1 10s running both normal;
+  animation: ruqun 4s ease 1 10s running both normal; }
+
+.swiper-slide-active #hxfx {
+  -webkit-animation: hxfx 2s ease 1 19s running both normal;
+  -moz-animation: hxfx 2s ease 1 19s running both normal;
+  -o-animation: hxfx 2s ease 1 19s running both normal;
+  -ms-animation: hxfx 2s ease 1 19s running both normal;
+  animation: hxfx 2s ease 1 19s running both normal; }
+
+/*# sourceMappingURL=WeChat_scene.css.map */
